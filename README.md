@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-green)
-![Project](https://img.shields.io/badge/Project-Kiva%20Dataset-orange)
-=======
 # Data Cleaning & Analysis: Kiva Loans Dataset 📊
 
 ## 🎯 Objetivo del Proyecto
@@ -14,6 +9,11 @@ Este proyecto consiste en la limpieza, validación y preparación de un dataset 
 * **Variables principales:** `loan_amount`, `borrower_genders`, `country`, `term_in_months`.
 
 ## 🛠️ Tecnologías Utilizadas
+
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Cleaning-green)
+![Project](https://img.shields.io/badge/Project-Kiva%20Dataset-orange)
+
 * **Lenguaje:** Python
 * **Librerías principales:**
     * `pandas`: Manipulación y limpieza de datos.
@@ -55,4 +55,4 @@ Se crearon nuevas métricas para mejorar el análisis:
 
 ---
 *Este proyecto fue desarrollado utilizando Google Colab y Python.*
->>>>>>> 7725ccc (Remove kiva clean grupal csv)
+
