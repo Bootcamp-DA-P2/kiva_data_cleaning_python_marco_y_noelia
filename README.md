@@ -37,14 +37,11 @@ Este proyecto consiste en la limpieza, validación y preparación de un dataset 
 ### 2. Limpieza y Preparación
 
 * **Manejo de Fechas:** Conversión de variables temporales (`posted_time`, `disbursed_time`, `funded_time`, `date`) a formato `datetime`.
+  
 * **Tratamiento de Nulos:**
    * Se imputaron valores como `'unknown'` en campos de texto (`region`, `use`, `borrower_genders`).
    * Se asignó `-1` a `partner_id` cuando no había dato.
    * Se eliminaron filas con nulos en columnas en las que no había un riesgo al hacerlo como `term_in_months` y `repayment_interval`.
- 
-  
-
-![Valores nulos](images/null_value.png)
 
 * **Estandarización:** Normalización de texto (minúsculas y eliminación de espacios) en `country`, `sector`, `activity` y `use`.
   
@@ -83,7 +80,7 @@ Se crearon nuevas métricas para mejorar el análisis:
 - Se prioriza mantener la información frente a eliminar datos  
 - Se evita introducir valores artificiales  
 
-
+![Estructura del dataset](images/clean_dataset.png)
 
 ## ▶️ Cómo ejecutar el proyecto
 
